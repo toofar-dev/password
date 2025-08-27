@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+@layer base {
+  .dark {
+    --ui-bg: var(--color-black)
+  }
+}
