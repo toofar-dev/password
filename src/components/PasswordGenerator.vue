@@ -21,13 +21,7 @@
           />
         </div>
       </UCard>
-      <UButton
-        label="Generate"
-        icon="lucide:wand"
-        color="primary"
-        block
-        @click="generatePassword"
-      />
+      <UButton label="Generate" icon="lucide:wand" color="primary" block @click="generate" />
     </div>
   </div>
 </template>
@@ -44,7 +38,7 @@ const includeLowercase = ref<boolean>(true)
 const includeNumbers = ref<boolean>(true)
 const includeSymbols = ref<boolean>(false)
 
-const generatePassword = (): void => {
+const generate = (): void => {
   const uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
   const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz'
   const numberChars = '0123456789'
@@ -91,6 +85,6 @@ const onCopy = async (): Promise<void> => {
 }
 
 onMounted(() => {
-  generatePassword()
+  generate()
 })
 </script>
