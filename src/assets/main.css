@@ -1,6 +1,12 @@
 @import 'tailwindcss';
 @import '@nuxt/ui';
 
+@theme {
+  --font-sans: 'Geist', system-ui, -apple-system;
+  --font-mono: 'Geist Mono', ui-monospace;
+  --font-display: 'Funnel Display', system-ui, -apple-system;
+}
+
 @layer base {
   .dark {
     --ui-bg: var(--color-black)

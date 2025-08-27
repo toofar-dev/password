@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center items-center w-screen h-screen">
     <div class="space-y-6 w-92 h-max">
-      <h1 class="text-xl font-semibold text-center">Password Generator</h1>
+      <h1 class="text-2xl font-semibold text-center font-display">Password Generator</h1>
       <div class="grid grid-cols-2 gap-4">
         <UCheckbox v-model="includeUppercase" label="Uppercase Letters" />
         <UCheckbox v-model="includeLowercase" label="Lowercase Letters" />
@@ -11,7 +11,7 @@
       <USlider v-model="length" :min="4" :max="32" :step="1" size="sm" tooltip />
       <UCard variant="soft">
         <div class="flex justify-between items-center">
-          <p>{{ password }}</p>
+          <p class="font-mono text-sm">{{ password }}</p>
           <UButton
             icon="lucide:copy"
             variant="soft"
@@ -76,7 +76,7 @@ const onCopy = async (): Promise<void> => {
     .writeText(password.value)
     .then(() => {
       toast.add({
-        title: 'Password copied!',
+        title: 'Password copied',
         icon: 'lucide:check',
         color: 'success',
       })
