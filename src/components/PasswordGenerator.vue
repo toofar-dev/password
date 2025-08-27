@@ -32,7 +32,7 @@ import { ref, onMounted } from 'vue'
 const toast = useToast()
 
 const password = ref<string>('')
-const length = ref<number>(12)
+const length = ref<number>(16)
 const includeUppercase = ref<boolean>(true)
 const includeLowercase = ref<boolean>(true)
 const includeNumbers = ref<boolean>(true)
