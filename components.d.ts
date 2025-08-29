@@ -12,11 +12,9 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     UApp: typeof import('./node_modules/.pnpm/@nuxt+ui@3.3.2_@babel+parser@7.28.3_embla-carousel@8.6.0_typescript@5.8.3_vite@7.1.3_@types+n_klg7vv767tbmnuftmtwsxsylam/node_modules/@nuxt/ui/dist/runtime/components/App.vue')['default']
-    UBadge: typeof import('./node_modules/.pnpm/@nuxt+ui@3.3.2_@babel+parser@7.28.3_embla-carousel@8.6.0_typescript@5.8.3_vite@7.1.3_@types+n_klg7vv767tbmnuftmtwsxsylam/node_modules/@nuxt/ui/dist/runtime/components/Badge.vue')['default']
     UButton: typeof import('./node_modules/.pnpm/@nuxt+ui@3.3.2_@babel+parser@7.28.3_embla-carousel@8.6.0_typescript@5.8.3_vite@7.1.3_@types+n_klg7vv767tbmnuftmtwsxsylam/node_modules/@nuxt/ui/dist/runtime/components/Button.vue')['default']
     UCard: typeof import('./node_modules/.pnpm/@nuxt+ui@3.3.2_@babel+parser@7.28.3_embla-carousel@8.6.0_typescript@5.8.3_vite@7.1.3_@types+n_klg7vv767tbmnuftmtwsxsylam/node_modules/@nuxt/ui/dist/runtime/components/Card.vue')['default']
     UCheckbox: typeof import('./node_modules/.pnpm/@nuxt+ui@3.3.2_@babel+parser@7.28.3_embla-carousel@8.6.0_typescript@5.8.3_vite@7.1.3_@types+n_klg7vv767tbmnuftmtwsxsylam/node_modules/@nuxt/ui/dist/runtime/components/Checkbox.vue')['default']
-    UInput: typeof import('./node_modules/.pnpm/@nuxt+ui@3.3.2_@babel+parser@7.28.3_embla-carousel@8.6.0_typescript@5.8.3_vite@7.1.3_@types+n_klg7vv767tbmnuftmtwsxsylam/node_modules/@nuxt/ui/dist/runtime/components/Input.vue')['default']
     USlider: typeof import('./node_modules/.pnpm/@nuxt+ui@3.3.2_@babel+parser@7.28.3_embla-carousel@8.6.0_typescript@5.8.3_vite@7.1.3_@types+n_klg7vv767tbmnuftmtwsxsylam/node_modules/@nuxt/ui/dist/runtime/components/Slider.vue')['default']
   }
 }
