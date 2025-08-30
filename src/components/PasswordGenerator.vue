@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center items-center w-screen h-screen">
-    <div class="space-y-6 w-92 h-max">
+    <div class="space-y-6 h-max sm:w-92">
       <h1 class="text-2xl font-semibold text-center font-display">Password Generator</h1>
       <div class="grid grid-cols-2 gap-4">
         <UCheckbox v-model="includeUppercase" label="Uppercase Letters" />
